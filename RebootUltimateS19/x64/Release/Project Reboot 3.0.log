@@ -1,0 +1,1171 @@
+﻿  Scanning sources for module dependencies...
+  BuildingContainer.cpp
+  FortGameModeAthena.cpp
+  FortGameSessionDedicatedAthena.cpp
+  FortGameStateAthena.cpp
+  FortPickup.cpp
+  FortPlayerController.cpp
+  FortPlayerControllerAthena.cpp
+  KismetSystemLibrary.cpp
+  NetDriver.cpp
+  dllmain.cpp
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1076,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1077,34): warning C4244: 'initializing': conversion from 'double' to 'uint64_t', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1348,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\NetDriver.cpp(10,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\hooking.h(339,114): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\hooking.h(346,52): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\hooking.h(339,114): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\hooking.h(346,52): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vehicles.h(48,21): warning C4305: '/=': truncation from 'double' to 'float'
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vehicles.h(50,22): warning C4305: '/=': truncation from 'double' to 'float'
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\hooking.h(339,114): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,103): warning C4244:         ]
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(18,60): warning C4244:         ]
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortAthenaMapInfo.h(20,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\hooking.h(346,52): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\finder.h(561,22): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vehicles.h(48,21): warning C4305: '/=': truncation from 'double' to 'float'
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vehicles.h(50,22): warning C4305: '/=': truncation from 'double' to 'float'
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerController.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(117,68): warning C4244: '=': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(254,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(280,100): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(287,135): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(287,135): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'BuildingContainer.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(593,96): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\BuildingContainer.cpp(36,71): warning C4244: '=': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPickup.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'NetDriver.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\NetDriver.cpp(114,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(124,124): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(136,37): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(136,37): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(136,37): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(136,37): warning C4244:             _Ty=float
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(136,37): warning C4244:         ]
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(205,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(274,57): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(274,28): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(275,50): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(283,68): warning C4244: '=': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\NetDriver.cpp(216,77): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\NetDriver.cpp(216,35): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(1004,68): warning C4244: '=': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\NetDriver.cpp(630,59): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\NetDriver.cpp(630,44): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(390,106): warning C4244: 'argument': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(1207,29): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(431,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(1330,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(1337,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameStateAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(1404,71): warning C4244: '=': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerController.cpp(1405,75): warning C4244: '=': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(458,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(463,80): warning C4244: 'argument': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(481,88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPickup.cpp(488,18): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'KismetSystemLibrary.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'FortGameModeAthena.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortPlayerControllerAthena.cpp(210,68): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(170,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(678,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,108): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,108): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,108): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,108): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,108): warning C4244:         ]
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,72): warning C4244: 'argument': conversion from 'float' to '_Ty', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,72): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,72): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,72): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1246,72): warning C4244:         ]
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1248,32): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\FortGameModeAthena.cpp(1265,20): warning C4244: 'initializing': conversion from 'int64' to 'uint8', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\moderation.h(85,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\moderation.h(146,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'BuildingContainer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'FortGameStateAthena.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'NetDriver.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(199,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'FortPickup.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\vendingmachine.h(259,99): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'FortPlayerController.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'KismetSystemLibrary.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244: 'return': conversion from '_Ty' to 'float', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         with
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         [
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:             _Ty=int
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(50,19): warning C4244:         ]
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(103,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1515,72): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\gui.h(1593,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\commands.h(1161,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\commands.h(1349,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'FortGameModeAthena.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\commands.h(1477,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'dllmain.cpp')
+  
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\dllmain.cpp(683,61): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\dllmain.cpp(961,110): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\dllmain.cpp(973,146): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\dllmain.cpp(1104,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'FortGameSessionDedicatedAthena.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'FortGameStateAthena.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'BuildingContainer.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'KismetSystemLibrary.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'FortPlayerController.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'NetDriver.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'FortPickup.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'FortPlayerControllerAthena.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'FortGameModeAthena.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16): warning C4244:         ]
+  (compiling source file 'dllmain.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,16):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,59):
+  	see reference to function template instantiation 'std::pair<float,float>::pair<int,float,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=float
+          ]
+  		C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\Project Reboot 3.0\calendar.h(30,57):
+  		see the first reference to 'std::pair<float,float>::pair' in 'Calendar::GetFullSnowMapValue'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:             _Elem=char
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53): warning C4244:         ]
+  (compiling source file 'dllmain.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2749,53):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(1422,44):
+  	see reference to function template instantiation 'Memcury::Scanner Memcury::Scanner::FindStringRef<const wchar_t*>(T,bool,int,bool,bool)' being compiled
+          with
+          [
+              T=const wchar_t *
+          ]
+  	C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\vendor\memcury.h(916,29):
+  	see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xstring(2590,17):
+  	see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+  
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  9 of 13242 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    61 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project Reboot 3.0.vcxproj -> C:\Users\andre\Downloads\Repositories\RebootV3\Project_Reboot_3.0\x64\Release\Project Reboot 3.0.dll
