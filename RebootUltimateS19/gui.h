@@ -1311,6 +1311,34 @@ static inline void MainUI()
 					LOG_WARN(LogUI, "Invalid Item Definition!");
 				}
 			}
+
+			auto GameState = Cast<AFortGameStateAthena>(GetWorld()->GetGameState());
+
+			if (GameState)
+			{
+				static auto DefaultGliderRedeployCanRedeployOffset = FindOffsetStruct("/Script/FortniteGame.FortGameStateAthena", "DefaultGliderRedeployCanRedeploy", false);
+				static auto DefaultParachuteDeployTraceForGroundDistanceOffset = GameState->GetOffset("DefaultParachuteDeployTraceForGroundDistance", false);
+
+				if (Globals::bStartedListening) // it resets accordingly to ProHenis b4 this
+				{
+					if (DefaultParachuteDeployTraceForGroundDistanceOffset != -1)
+					{
+						ImGui::InputFloat("Automatic Parachute Pullout Distance", GameState->GetPtr<float>(DefaultParachuteDeployTraceForGroundDistanceOffset));
+					}
+				}
+
+				static auto DefaultGliderRedeployCanRedeployOffsetDontWarn = FindOffsetStruct("/Script/FortniteGame.FortGameStateAthena", "DefaultGliderRedeployCanRedeploy", true);
+
+				if (DefaultGliderRedeployCanRedeployOffsetDontWarn != -1)
+				{
+					bool EnableGliderRedeploy = (bool)GameState->Get<float>(DefaultGliderRedeployCanRedeployOffsetDontWarn);
+
+					if (ImGui::Checkbox("Enable Glider Redeploy", &EnableGliderRedeploy))
+					{
+						GameState->Get<float>(DefaultGliderRedeployCanRedeployOffsetDontWarn) = EnableGliderRedeploy;
+					}
+				}
+			}
 		}
 		else if (Tab == LATEGAME_TAB)
 		{
