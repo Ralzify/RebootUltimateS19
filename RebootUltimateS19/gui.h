@@ -510,18 +510,18 @@ static inline void MainUI()
 
 				if (!bStartedBus)
 				{
-					bool bWillBeLategame = Globals::bLateGame.load();
-					ImGui::Checkbox("Lategame (HIGHLY EXPERIMENTAL)", &bWillBeLategame);
-					Globals::bLateGame.store(bWillBeLategame);
+					// bool bWillBeLategame = Globals::bLateGame.load();
+					// ImGui::Checkbox("Lategame (HIGHLY EXPERIMENTAL)", &bWillBeLategame);
+					// Globals::bLateGame.store(bWillBeLategame);
 				}
 
-				ImGui::Text(std::format("Joinable {}", Globals::bStartedListening).c_str());
+				ImGui::Text(std::format("Joinable: {}", Globals::bStartedListening).c_str());
 
 				static std::string ConsoleCommand;
 
-				ImGui::InputText("Console command", &ConsoleCommand);
+				ImGui::InputText("Console Command", &ConsoleCommand);
 
-				if (ImGui::Button("Execute console command"))
+				if (ImGui::Button("Execute Console Command"))
 				{
 					auto wstr = std::wstring(ConsoleCommand.begin(), ConsoleCommand.end());
 
