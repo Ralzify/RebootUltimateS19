@@ -1222,6 +1222,10 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 				ActorName = "/Game/Athena/Environments/Blueprints/DudeBro/BGA_DudeBro_Mini.BGA_DudeBro_Mini_C";
 			else if (ActorName == "nobuildzone")
 				ActorName = "/Game/Athena/Prototype/Blueprints/Galileo/BP_Galileo_NoBuildZone.BP_Galileo_NoBuildZone_C";
+			else if (ActorName == "launch" || ActorName == "launchpad")
+				ActorName = "/Game/Athena/Items/Traps/Launchpad/BluePrint/Trap_Floor_Player_Launch_Pad.Trap_Floor_Player_Launch_Pad_C";
+			else if (ActorName == "rift")
+				ActorName = "/Game/Athena/Items/ForagedItems/Rift/BGA_RiftPortal_Athena_Spawner.BGA_RiftPortal_Athena_Spawner_C";
 			else if (ActorName == "supplydrop")
 				if (Fortnite_Version >= 12.30 && Fortnite_Version <= 12.61)
 					ActorName = "/Game/Athena/SupplyDrops/AthenaSupplyDrop_Donut.AthenaSupplyDrop_Donut_C";
@@ -1468,7 +1472,7 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 			Pawn->TeleportTo(FVector(X, Y, Z), Pawn->GetActorRotation());
 			SendMessageToConsole(PlayerController, L"Teleported!");
 		}
-		else if (Command == "settimeofday")
+		else if (Command == "settimeofday" || Command == "time" || Command == "hour")
 		{
 			static auto SetTimeOfDayFn = FindObject<UFunction>("/Script/FortniteGame.FortKismetLibrary.SetTimeOfDay");
 
@@ -1572,19 +1576,6 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 				static auto Consumable2 = FindObject<UFortItemDefinition>(
 					L"");
 
-				static auto Bouncer = FindObject<UFortItemDefinition>(
-					L"/Game/Athena/Items/Traps/TID_Context_BouncePad_Athena.TID_Context_BouncePad_Athena");
-				static auto LaunchPad = FindObject<UFortItemDefinition>(
-					L"/Game/Athena/Items/Traps/TID_Floor_Player_Launch_Pad_Athena.TID_Floor_Player_Launch_Pad_Athena");
-				static auto DirBouncePad = FindObject<UFortItemDefinition>(
-					L"/Game/Athena/Items/Traps/TID_Floor_Player_Jump_Pad_Free_Direction_Athena.TID_Floor_Player_Jump_Pad_Free_Direction_Athena");
-				static auto FreezeTrap = FindObject<UFortItemDefinition>(
-					L"/Game/Athena/Items/Traps/TID_Context_Freeze_Athena.TID_Context_Freeze_Athena");
-				static auto SpeedBoost = FindObject<UFortItemDefinition>(
-					L"/Game/Athena/Items/Traps/TID_Context_SpeedBoost.TID_Context_SpeedBoost");
-				static auto Campfire = FindObject<UFortItemDefinition>(
-					L"/Game/Athena/Items/Traps/TID_Floor_Player_Campfire_Athena.TID_Floor_Player_Campfire_Athena");
-
 				static auto HeavyAmmo = FindObject<UFortItemDefinition>(
 					L"/Game/Athena/Items/Ammo/AthenaAmmoDataBulletsHeavy.AthenaAmmoDataBulletsHeavy");
 				static auto ShellsAmmo = FindObject<UFortItemDefinition>(
@@ -1622,12 +1613,6 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 				WorldInventory->AddItem(EnergyCells, nullptr, 999);
 				WorldInventory->AddItem(Arrows, nullptr, 30);
 				WorldInventory->AddItem(ReconAmmo, nullptr, 999);
-				WorldInventory->AddItem(Bouncer, nullptr, 999);
-				WorldInventory->AddItem(LaunchPad, nullptr, 999);
-				WorldInventory->AddItem(DirBouncePad, nullptr, 999);
-				WorldInventory->AddItem(FreezeTrap, nullptr, 999);
-				WorldInventory->AddItem(SpeedBoost, nullptr, 999);
-				WorldInventory->AddItem(Campfire, nullptr, 999);
 				WorldInventory->AddItem(Crown, nullptr, 1);
 
 				WorldInventory->Update();
