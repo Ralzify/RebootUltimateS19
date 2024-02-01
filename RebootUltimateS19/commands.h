@@ -704,13 +704,13 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 			{
 				weaponName = "AGID_AshtonPack_Turbo";
 			}
-			else if (weaponName == "batman" || weaponName == "batgrap")
+			else if (weaponName == "tent")
 			{
-				weaponName = "WID_Badger_Grape_VR";
+				weaponName = "WID_Athena_DeployableCampsite_Thrown";
 			}
-			else if (weaponName == "batarangs")
+			else if (weaponName == "flare" || Command == "flaregun")
 			{
-				weaponName = "WID_Athena_BadgerBangsNew";
+				weaponName = "WID_FringePlank_Athena_Prototype";
 			}
 			else if (weaponName == "stwpumpkin" || weaponName == "stwrocket")
 			{
@@ -1594,6 +1594,8 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 					L"/PrimalGameplay/Items/Ammo/AthenaAmmoDataArrows.AthenaAmmoDataArrows");
 				static auto ReconAmmo = FindObject<UFortItemDefinition>(
 					L"/MotherGameplay/Items/Scooter/Ammo_Athena_Mother_Scooter.Ammo_Athena_Mother_Scooter");
+				static auto STWAR = FindObject<UFortItemDefinition>(
+					L"/Game/Items/Ammo/AmmoDataBulletsMedium.AmmoDataBulletsMedium");
 
 				WorldInventory->AddItem(WoodItemData, nullptr, 999);
 				WorldInventory->AddItem(StoneItemData, nullptr, 999);
@@ -1613,6 +1615,7 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 				WorldInventory->AddItem(EnergyCells, nullptr, 999);
 				WorldInventory->AddItem(Arrows, nullptr, 30);
 				WorldInventory->AddItem(ReconAmmo, nullptr, 999);
+				WorldInventory->AddItem(STWAR, nullptr, 999);
 				WorldInventory->AddItem(Crown, nullptr, 1);
 
 				WorldInventory->Update();

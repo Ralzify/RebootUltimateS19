@@ -302,9 +302,12 @@ void ChangeLevels()
             *(bool*)FindGIsServer() = true;
         }
 
-        if (FindGIsClient())
+        if (Fortnite_Version != 18.10)
         {
-            *(bool*)FindGIsClient() = false;
+            if (FindGIsClient())
+            {
+                *(bool*)FindGIsClient() = false;
+            }
         }
 
         if (bShouldRemoveLocalPlayer)

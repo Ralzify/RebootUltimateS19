@@ -1167,6 +1167,24 @@ static inline void MainUI()
 					obj << CurrentObject->GetFullName() << '\n';
 				}
 			}
+			if (ImGui::Button("Dump Functions"))
+			{
+				std::ofstream FunctionsFile("Functions.txt");
+
+				static auto FunctionsClass = FindObject<UClass>("/Script/CoreUObject.Function");
+
+				auto AllFunctions = GetAllObjectsOfClass(FunctionsClass);
+
+				for (int i = 0; i < AllFunctions.size(); i++)
+				{
+					auto CurrentFunction = AllFunctions.at(i);
+
+					if (CurrentFunction != nullptr)
+					{
+						FunctionsFile << CurrentFunction->GetFullName() << '\n';
+					}
+				}
+			}
 
 			if (ImGui::Button("Dump Skins (Skins.txt)"))
 			{
@@ -1309,6 +1327,41 @@ static inline void MainUI()
 				{
 					ItemToGrantEveryone = "";
 					LOG_WARN(LogUI, "Invalid Item Definition!");
+				}
+			}
+
+			if (ImGui::Button("Teleport all to Battle Royale map"))
+			{
+				auto ClientConnections = GetWorld()->GetNetDriver()->GetClientConnections();
+
+				for (int i = 0; i < ClientConnections.Num(); i++)
+				{
+					auto CurrentPawn = Cast<AFortPlayerPawnAthena>(ClientConnections.At(i)->GetPlayerController()->GetPawn());
+
+					CurrentPawn->TeleportTo(FVector{ 0,0,0 }, FRotator{ 0,0,0 });
+
+					float height = 2000;
+
+					CurrentPawn->ProcessEvent(CurrentPawn->FindFunction("TeleportToSkyDive"), &height);
+				}
+
+			}
+
+
+			if (Fortnite_Version == 18.40)
+			{
+				if (ImGui::Button("Remove Storm Effect"))
+				{
+					auto ClientConnections = GetWorld()->GetNetDriver()->GetClientConnections();
+
+					for (int i = 0; i < ClientConnections.Num(); i++)
+					{
+						auto CurrentController = (AFortPlayerControllerAthena*)ClientConnections.At(i)->GetPlayerController();
+
+						static auto StormEffectClass = FindObject<UClass>(L"/Game/Athena/SafeZone/GE_OutsideSafeZoneDamage.GE_OutsideSafeZoneDamage_C");
+						auto PlayerState = CurrentController->GetPlayerStateAthena();
+						PlayerState->GetAbilitySystemComponent()->RemoveActiveGameplayEffectBySourceEffect(StormEffectClass, 1, PlayerState->GetAbilitySystemComponent());
+					}
 				}
 			}
 

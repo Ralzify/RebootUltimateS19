@@ -1151,7 +1151,7 @@ void AFortGameModeAthena::Athena_HandleStartingNewPlayerHook(AFortGameModeAthena
 	static UObject* OverrideBattleBusSkin = nullptr;
 	static UClass* OverrideSupplyDropClass = LoadObject<UClass>(L"/Game/Athena/SupplyDrops/AthenaSupplyDrop.AthenaSupplyDrop_C", BGAClass);
 
-	if (Fortnite_Version == 1.11 || Fortnite_Version == 7.30 || Fortnite_Version == 11.31 || Fortnite_Version == 15.10 || Fortnite_Version == 19.10)
+	if (Fortnite_Version == 1.11 || Fortnite_Version == 7.30 || Fortnite_Version == 11.31 || Fortnite_Version == 15.10 || Fortnite_Version == 19.01 || Fortnite_Version == 19.10)
 	{
 		OverrideBattleBusSkin = FindObject(L"/Game/Athena/Items/Cosmetics/BattleBuses/BBID_WinterBus.BBID_WinterBus"); // Winterfest
 		OverrideSupplyDropClass = LoadObject<UClass>(L"/Game/Athena/SupplyDrops/AthenaSupplyDrop_Holiday.AthenaSupplyDrop_Holiday_C", BGAClass);
