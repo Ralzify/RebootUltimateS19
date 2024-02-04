@@ -15,6 +15,18 @@
 #include "moderation.h"
 #include "gui.h"
 
+enum class EMovementMode : uint8
+{
+	MOVE_None = 0,
+	MOVE_Walking = 1,
+	MOVE_NavWalking = 2,
+	MOVE_Falling = 3,
+	MOVE_Swimming = 4,
+	MOVE_Flying = 5,
+	MOVE_Custom = 6,
+	MOVE_MAX = 7,
+};
+
 bool IsOperator(APlayerState* PlayerState, AFortPlayerController* PlayerController)
 {
 	auto& IP = PlayerState->GetSavedNetworkAddress();
@@ -620,7 +632,7 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 			{
 				weaponName = "Athena_KnockGrenade";
 			}
-			else if (weaponName == "portafortress")
+			else if (weaponName == "portafortress" || weaponName == "fortress")
 			{
 				weaponName = "Athena_SuperTowerGrenade_A";
 			}
@@ -668,7 +680,7 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 			{
 				weaponName = "Athena_Bandage";
 			}
-			else if (weaponName == "portafort")
+			else if (weaponName == "portafort" || weaponName == "paf")
 			{
 				weaponName = "Athena_TowerGrenade";
 			}
@@ -1402,6 +1414,180 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 			CheatManager = nullptr;
 			SendMessageToConsole(PlayerController, L"Destroyed target!");
 		}
+		else if (Command == "wipequickbar" || Command == "wipeall" || Command == "wipe" || Command == "clear" || Command == "clearall")
+		{
+			bool bWipePrimary = false;
+			bool bWipeSecondary = false;
+			bool bCheckShouldBeDropped = true;
+
+			bool bWipeSingularQuickbar = Command != "wipeall" || Command != "clearall";
+
+			if (bWipeSingularQuickbar)
+			{
+				if (Arguments.size() <= 1)
+				{
+					SendMessageToConsole(PlayerController, L"Please provide \"primary\" or \"secondary\"!\n");
+					return;
+				}
+
+				std::string quickbarType = Arguments[1];
+				std::transform(quickbarType.begin(), quickbarType.end(), quickbarType.begin(), ::tolower);
+
+				if (quickbarType == "primary") bWipePrimary = true;
+				if (quickbarType == "secondary") bWipeSecondary = true;
+			}
+			else
+			{
+				bWipePrimary = true;
+				bWipeSecondary = true;
+			}
+
+			if (!bWipePrimary && !bWipeSecondary)
+			{
+				SendMessageToConsole(PlayerController, L"Please provide \"primary\" or \"secondary\"!\n");
+				return;
+			}
+
+			if (Arguments.size() > 1 + bWipeSingularQuickbar)
+			{
+				std::string bypassCanBeDropped = Arguments[1 + bWipeSingularQuickbar];
+				std::transform(bypassCanBeDropped.begin(), bypassCanBeDropped.end(), bypassCanBeDropped.begin(), ::tolower);
+
+				if (bypassCanBeDropped == "true") bCheckShouldBeDropped = true;
+				else if (bypassCanBeDropped == "false") bCheckShouldBeDropped = false;
+			}
+
+			auto WorldInventory = ReceivingController->GetWorldInventory();
+
+			if (!WorldInventory)
+			{
+				SendMessageToConsole(PlayerController, L"Player does not have a WorldInventory!\n");
+				return;
+			}
+
+			static auto FortEditToolItemDefinitionClass = FindObject<UClass>(L"/Script/FortniteGame.FortEditToolItemDefinition");
+			static auto FortBuildingItemDefinitionClass = FindObject<UClass>(L"/Script/FortniteGame.FortBuildingItemDefinition");
+
+			std::vector<std::pair<FGuid, int>> GuidsAndCountsToRemove;
+			const auto& ItemInstances = WorldInventory->GetItemList().GetItemInstances();
+			auto PickaxeInstance = WorldInventory->GetPickaxeInstance();
+
+			for (int i = 0; i < ItemInstances.Num(); ++i)
+			{
+				auto ItemInstance = ItemInstances.at(i);
+				const auto ItemDefinition = Cast<UFortWorldItemDefinition>(ItemInstance->GetItemEntry()->GetItemDefinition());
+
+				if (bCheckShouldBeDropped
+					? ItemDefinition->CanBeDropped()
+					: !ItemDefinition->IsA(FortBuildingItemDefinitionClass)
+					&& !ItemDefinition->IsA(FortEditToolItemDefinitionClass)
+					&& ItemInstance != PickaxeInstance
+					)
+				{
+					bool IsPrimary = IsPrimaryQuickbar(ItemDefinition);
+
+					if ((bWipePrimary && IsPrimary) || (bWipeSecondary && !IsPrimary))
+					{
+						GuidsAndCountsToRemove.push_back({ ItemInstance->GetItemEntry()->GetItemGuid(), ItemInstance->GetItemEntry()->GetCount() });
+					}
+				}
+			}
+
+			for (auto& [Guid, Count] : GuidsAndCountsToRemove)
+			{
+				WorldInventory->RemoveItem(Guid, nullptr, Count, true);
+			}
+
+			WorldInventory->Update();
+
+			SendMessageToConsole(PlayerController, L"Cleared!\n");
+		}
+		else if (Command == "fly")
+		{
+			auto Pawn = Cast<APawn>(ReceivingController->GetPawn());
+
+			if (!Pawn)
+			{
+				SendMessageToConsole(PlayerController, L"No pawn found!");
+				return;
+			}
+
+			static auto CharMovementOffset = Pawn->GetOffset("CharacterMovement");
+			if (CharMovementOffset != -1)
+			{
+				auto CharMovement = Pawn->Get<UObject*>(CharMovementOffset);
+
+				static auto MovementOffset = CharMovement->GetOffset("MovementMode", false);
+				if (MovementOffset != -1)
+				{
+					EMovementMode MovementMode = CharMovement->Get<EMovementMode>(MovementOffset);
+					EMovementMode NewMode = EMovementMode::MOVE_Walking;
+
+					if (MovementMode != EMovementMode::MOVE_Flying)
+					{
+						NewMode = EMovementMode::MOVE_Flying;
+					}
+
+					static auto SetMovementModeFn = FindObject<UFunction>(L"/Script/Engine.CharacterMovementComponent.SetMovementMode");
+
+					if (SetMovementModeFn)
+					{
+						CharMovement->ProcessEvent(SetMovementModeFn, &NewMode);
+					}
+				}
+				else
+				{
+					SendMessageToConsole(PlayerController, L"Movement mode not found!");
+					return;
+				}
+			}
+			else
+			{
+				SendMessageToConsole(PlayerController, L"Character movement not found!");
+				return;
+			}
+		}
+		else if (Command == "setspeed" || Command == "speed")
+		{
+			float Speed = 1.0f;
+
+			if (Arguments.size() > 1 && Arguments[1] != " ")
+			{
+				try { Speed = std::stof(Arguments[1]); }
+				catch (...) {}
+			}
+
+			auto Pawn = Cast<APawn>(ReceivingController->GetPawn());
+
+			if (!Pawn)
+			{
+				SendMessageToConsole(PlayerController, L"No pawn to set speed!");
+				return;
+			}
+
+			static auto SetMovementSpeedFn = FindObject<UFunction>(L"/Script/FortniteGame.FortPawn.SetMovementSpeed") ? FindObject<UFunction>(L"/Script/FortniteGame.FortPawn.SetMovementSpeed") :
+				FindObject<UFunction>(L"/Script/FortniteGame.FortPawn.SetMovementSpeedMultiplier");
+
+			if (!SetMovementSpeedFn)
+			{
+				SendMessageToConsole(PlayerController, L"SetMovementSpeed not found!");
+				return;
+			}
+
+			Pawn->ProcessEvent(SetMovementSpeedFn, &Speed);
+		}
+		else if (Command == "startaircraft")
+		{
+			if (bStartedBus)
+			{
+				SendMessageToConsole(ReceivingController, L"Bus has already started!");
+				return;
+			}
+
+			UKismetSystemLibrary::ExecuteConsoleCommand(GetWorld(), L"startaircraft", ReceivingController);
+
+			SendMessageToConsole(ReceivingController, L"Started bus.");
+		}
 		else if (Command == "bugitgo")
 		{
 			if (Arguments.size() <= 3)
@@ -1706,6 +1892,8 @@ cheat tp - Teleports to what the player is looking at.
 cheat bot <Amount=1> - Spawns a bot at the player (experimental).
 cheat pickaxe <PickaxeID> - Set player's pickaxe. Can be either the PID or WID.
 cheat skin <CIDShortName> - Sets a player's character.
+cheat wipe/clear <Primary|Secondary> - Removes the specified quickbar (parameters is not case sensitive).
+cheat wipeall/clearall - Removes the player's entire inventory.
 cheat destroy - Destroys the actor that the player is looking at.
 cheat healthall - Heals all players health.
 cheat shieldall - Heals all players shield.
@@ -1714,7 +1902,10 @@ cheat godall - Gods all players.
 cheat giveall - Gives all players Ammo, Materials, and Traps maxed out.
 cheat dbno - Knocks the player.
 cheat getlocation - Gives you the current XYZ cords of where you are standing and copies them to your clipboard (useful for bugitgo)
+cheat startaircraft - Starts the bus.
 cheat settimeofday <1-23> - Changes the time of day in game to a 24H time period.
+cheat fly - Toggles creative flying.
+cheat speed - Changes player's movement speed (buggy running but works with cheat fly)
 cheat ralz - Gives all players a custom loadout with ammo, materials, weapons, etc.
 
 If you want to execute a command on a certain player, surround their name (case sensitive) with \, and put the param anywhere. Example: cheat health \ralz\ 100
