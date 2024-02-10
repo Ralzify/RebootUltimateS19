@@ -50,19 +50,22 @@
 #define EVENT_TAB 5
 #define CALENDAR_TAB 6
 #define ZONE_TAB 7
-#define DUMP_TAB 8
-#define UNBAN_TAB 9
-#define FUN_TAB 10
-#define LATEGAME_TAB 11
-#define DEVELOPER_TAB 12
-#define DEBUGLOG_TAB 13
-#define SETTINGS_TAB 14
-#define CREDITS_TAB 15
+#define TRICKSHOT_TAB 8
+#define DUMP_TAB 9
+#define UNBAN_TAB 10
+#define FUN_TAB 11
+#define LATEGAME_TAB 12
+#define DEVELOPER_TAB 13
+#define DEBUGLOG_TAB 14
+#define SETTINGS_TAB 15
+#define CREDITS_TAB 16
 
 #define MAIN_PLAYERTAB 1
 #define INVENTORY_PLAYERTAB 2
 #define LOADOUT_PLAYERTAB 4
 #define FUN_PLAYERTAB 5
+
+static inline float DefaultCannonMultiplier = 1.f;
 
 extern inline bool bHandleDeath = true;
 extern inline bool bUseCustomMap = false;
@@ -82,6 +85,10 @@ extern inline int AmountOfBotsToSpawn = 0;
 extern inline bool bEnableRebooting = false;
 extern inline bool bEngineDebugLogs = false;
 extern inline int AmountOfHealthSiphon = 50;
+extern inline bool bEnableCannonAnimations = false;
+extern inline float* CannonXMultiplier = &DefaultCannonMultiplier;
+extern inline float* CannonYMultiplier = &DefaultCannonMultiplier;
+extern inline float* CannonZMultiplier = &DefaultCannonMultiplier;
 
 // THE BASE CODE IS FROM IMGUI GITHUB
 
@@ -375,6 +382,14 @@ static inline void MainTabs()
 		if (ImGui::BeginTabItem("Calendar Events"))
 		{
 			Tab = CALENDAR_TAB;
+			PlayerTab = -1;
+			bInformationTab = false;
+			ImGui::EndTabItem();
+		}
+
+		if (ImGui::BeginTabItem("Trickshot"))
+		{
+			Tab = TRICKSHOT_TAB;
 			PlayerTab = -1;
 			bInformationTab = false;
 			ImGui::EndTabItem();
@@ -1109,6 +1124,21 @@ static inline void MainUI()
 			}
 		}
 
+		else if (Tab == TRICKSHOT_TAB)
+		{
+			ImGui::Checkbox("Enable Cannon Animations", &bEnableCannonAnimations);
+
+			ImGui::NewLine();
+
+			if (!bEnableCannonAnimations)
+			{
+				ImGui::Text("FMod Cannon Launch Velocity");
+				ImGui::InputFloat("X", CannonXMultiplier);
+				ImGui::InputFloat("Y", CannonYMultiplier);
+				ImGui::InputFloat("Z", CannonZMultiplier);
+			}
+		}
+
 		else if (Tab == ZONE_TAB)
 		{
 			if (ImGui::Button("Start Safe Zone"))
@@ -1330,7 +1360,7 @@ static inline void MainUI()
 				}
 			}
 
-			if (ImGui::Button("Teleport all to Battle Royale map"))
+			if (ImGui::Button("Teleport all to Height Limit"))
 			{
 				auto ClientConnections = GetWorld()->GetNetDriver()->GetClientConnections();
 
@@ -1338,7 +1368,7 @@ static inline void MainUI()
 				{
 					auto CurrentPawn = Cast<AFortPlayerPawnAthena>(ClientConnections.At(i)->GetPlayerController()->GetPawn());
 
-					CurrentPawn->TeleportTo(FVector{ 0,0,0 }, FRotator{ 0,0,0 });
+					CurrentPawn->TeleportTo(FVector{ -11715.452148,4123.726074,105011.210938 }, FRotator{ -11715.452148,4123.726074,105011.210938 });
 
 					float height = 2000;
 
