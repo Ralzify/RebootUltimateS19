@@ -1368,7 +1368,7 @@ static inline void MainUI()
 				{
 					auto CurrentPawn = Cast<AFortPlayerPawnAthena>(ClientConnections.At(i)->GetPlayerController()->GetPawn());
 
-					CurrentPawn->TeleportTo(FVector{ -11715.452148,4123.726074,105011.210938 }, FRotator{ -11715.452148,4123.726074,105011.210938 });
+					CurrentPawn->TeleportTo(FVector{ -11715.452148,4123.726074,105011.210938 }, FRotator{ 0,0,0 });
 
 					float height = 2000;
 
