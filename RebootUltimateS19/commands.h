@@ -1071,8 +1071,49 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 				return;
 			}
 
-			Pawn->SetCanBeDamaged(!Pawn->CanBeDamaged());
-			SendMessageToConsole(PlayerController, std::wstring(L"God set to " + std::to_wstring(!(bool)Pawn->CanBeDamaged())).c_str());
+			float MaxHealth = Pawn->GetMaxHealth();
+			float MaxShield = Pawn->GetMaxShield();
+
+			auto HealthSet = Pawn->GetHealthSet();
+			auto ShieldSet = Pawn->GetShieldSet();
+
+			if (!HealthSet)
+			{
+				SendMessageToConsole(PlayerController, L"No HealthSet!");
+				return;
+			}
+
+			if (!ShieldSet)
+			{
+				SendMessageToConsole(PlayerController, L"No ShieldSet!");
+				return;
+			}
+
+			static auto HealthOffset = HealthSet->GetOffset("Health");
+			static auto ShieldOffset = ShieldSet->GetOffset("Shield");
+
+			auto& Health = HealthSet->Get<FFortGameplayAttributeData>(HealthOffset);
+			auto& Shield = ShieldSet->Get<FFortGameplayAttributeData>(ShieldOffset);
+
+			if (Health.GetMinimum() != MaxHealth)
+			{
+				Health.GetMinimum() = MaxHealth;
+				SendMessageToConsole(PlayerController, L"God on.");
+			}
+			else
+			{
+				Health.GetMinimum() = 0;
+				SendMessageToConsole(PlayerController, L"God off.");
+			}
+
+			if (Shield.GetMinimum() != MaxShield)
+			{
+				Shield.GetMinimum() = MaxShield;
+			}
+			else
+			{
+				Health.GetMinimum() = 0;
+			}
 		}
 		else if (Command == "applycid" || Command == "skin")
 		{
@@ -1105,7 +1146,34 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 			}
 
 			SendMessageToConsole(PlayerController, L"Applied CID!");
-		} 
+		}
+		else if (Command == "applyhid" || Command == "hero")
+		{
+			auto PlayerState = Cast<AFortPlayerState>(ReceivingController->GetPlayerState());
+
+			if (!PlayerState) // ???
+			{
+				SendMessageToConsole(PlayerController, L"No playerstate!");
+				return;
+			}
+
+			auto Pawn = Cast<AFortPlayerPawn>(ReceivingController->GetMyFortPawn());
+
+			std::string HIDStr = Arguments[1];
+			auto HIDDef = FindObject(HIDStr, nullptr, ANY_PACKAGE);
+
+			if (!HIDDef)
+			{
+				SendMessageToConsole(PlayerController, L"Invalid hero item definition!");
+				return;
+			}
+
+			LOG_INFO(LogDev, "Applying {}", HIDDef->GetFullName());
+
+			ApplyHID(Pawn, HIDDef);
+
+			SendMessageToConsole(PlayerController, L"Applied HID!");
+		}
 		else if (Command == "spawn" || Command == "summon")
 		{
 			if (Arguments.size() <= 1)
@@ -1190,12 +1258,18 @@ void ServerCheatHook(AFortPlayerControllerAthena* PlayerController, FString Msg)
 				ActorName = "/Game/Athena/Environments/Blueprints/DUDEBRO/BGA_HVAC.BGA_HVAC_C";
 			else if (ActorName == "geyser")
 				ActorName = "/Game/Athena/Environments/Blueprints/DudeBro/BGA_DudeBro_Mini.BGA_DudeBro_Mini_C";
+			else if (ActorName == "dumpster" || ActorName == "trash")
+				ActorName = "/Game/Athena/Items/EnvironmentalItems/HidingProps/Props/B_HidingProp_Dumpster.B_HidingProp_Dumpster_C";
 			else if (ActorName == "nobuildzone")
 				ActorName = "/Game/Athena/Prototype/Blueprints/Galileo/BP_Galileo_NoBuildZone.BP_Galileo_NoBuildZone_C";
+			else if (ActorName == "llama")
+				ActorName = "/Game/Athena/SupplyDrops/Llama/AthenaSupplyDrop_Llama.AthenaSupplyDrop_Llama_C";
 			else if (ActorName == "launch" || ActorName == "launchpad")
 				ActorName = "/Game/Athena/Items/Traps/Launchpad/BluePrint/Trap_Floor_Player_Launch_Pad.Trap_Floor_Player_Launch_Pad_C";
 			else if (ActorName == "rift")
 				ActorName = "/Game/Athena/Items/ForagedItems/Rift/BGA_RiftPortal_Athena_Spawner.BGA_RiftPortal_Athena_Spawner_C";
+			else if (ActorName == "gascan" || ActorName == "gas")
+				ActorName = "/Game/Athena/Items/Weapons/Prototype/PetrolPump/BGA_Petrol_Pickup.BGA_Petrol_Pickup_C";
 			else if (ActorName == "supplydrop")
 				if (Fortnite_Version >= 12.30 && Fortnite_Version <= 12.61)
 					ActorName = "/Game/Athena/SupplyDrops/AthenaSupplyDrop_Donut.AthenaSupplyDrop_Donut_C";

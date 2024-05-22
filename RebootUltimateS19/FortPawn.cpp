@@ -68,6 +68,28 @@ float AFortPawn::GetHealth()
 	return Health;
 }
 
+float AFortPawn::GetMaxHealth()
+{
+	float MaxHealth = 0;
+	static auto GetMaxHealthFn = FindObject<UFunction>(L"/Script/FortniteGame.FortPawn.GetMaxHealth");
+
+	if (GetMaxHealthFn)
+		this->ProcessEvent(GetMaxHealthFn, &MaxHealth);
+
+	return MaxHealth;
+}
+
+float AFortPawn::GetMaxShield()
+{
+	float MaxShield = 0;
+	static auto GetMaxShieldFn = FindObject<UFunction>(L"/Script/FortniteGame.FortPawn.GetMaxShield");
+
+	if (GetMaxShieldFn)
+		this->ProcessEvent(GetMaxShieldFn, &MaxShield);
+
+	return MaxShield;
+}
+
 void AFortPawn::SetHealth(float NewHealth)
 {
 	static auto SetHealthFn = FindObject<UFunction>(L"/Script/FortniteGame.FortPawn.SetHealth");
